@@ -13,6 +13,6 @@ class VerifyCsrfToken extends BaseVerifier
      */
     protected $except = [
         // Add any routes here that should be excluded from CSRF verification
-        'webhook', // Example for excluding the webhook route
+        '/webhook', // Example for excluding the webhook route
     ];
 }
